@@ -10,7 +10,7 @@ HASH TABLE
 
 
 2. What is the complexity of a Hash Table?
-    [Complexity](imgs/complexity.png)
+    ![complexity](https://user-images.githubusercontent.com/91000353/138256644-e1855158-0b3e-415c-8049-690bb2f6eda9.png)
     - space complexity: O(n)
     - time complexity: O(1) - O(n)
         Open addressing: insert: O(1)
@@ -53,7 +53,7 @@ HASH TABLE
 
 
 7. Differentiate hashing, encoding and encryption? When to use what?
-    [Complexity](imgs/hee.png)
+    ![hee](https://user-images.githubusercontent.com/91000353/138256785-55bab666-7305-4e13-a3af-231fe29c9016.png)
 
 8. Why search in hashtable is O(1) on average?
     n: keys stored in the hash table
