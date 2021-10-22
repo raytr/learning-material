@@ -1,31 +1,32 @@
 HASH FUNCTION
-    1. What is a Hash Function?
+    1. What is a Hash Function?\
      any function that can be used to map data of arbitrary size to fixed-size values.
 
 HASH TABLE
 1. What is Hash Table?  
-        a data structure which maps keys to values.
-        format:  array of slots (buckets).
+        a data structure which maps keys to values.\
+        format:  array of slots (buckets).\
         hash table uses hash functions to compute an index (hashcode) from key.
 
 
 2. What is the complexity of a Hash Table?
     ![complexity](https://user-images.githubusercontent.com/91000353/138256644-e1855158-0b3e-415c-8049-690bb2f6eda9.png)
     - space complexity: O(n)
-    - time complexity: O(1) - O(n)
-        Open addressing: insert: O(1)
-                         search: O(1) - O(n)
-                         delete: O(n)
+    - time complexity: O(1) - O(n)\
+        Open addressing: 
+        - insert: O(1)
+        - search: O(1) - O(n)
+        - delete: O(n)\
         Chaining method: O(n)
 
-3. When worst case happen?
+3. When worst case happen?\
     Search: when all the keys on the same slot O(n).
 
-4. Explain in simple terms how Hash Tables are implemented?
-    Open addressing:
-        insert:
-            compose the index by hash function
-            => if the index is fiiled, PROBING until found the empty/delete slot
+4. Explain in simple terms how Hash Tables are implemented?\
+    Open addressing:\
+        insert:\
+            compose the index by hash function\
+            => if the index is fiiled, PROBING until found the empty/delete slot\
             => insert value into this index 
 
         search:
